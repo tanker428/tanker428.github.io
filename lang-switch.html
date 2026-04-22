@@ -1,0 +1,55 @@
+<script>
+(function () {
+  var JA_TO_EN_LABEL = {
+    'ホーム':         'Home',
+    'プロフィール':   'Profile',
+    '研究':           'Research',
+    '開発':           'Develop',
+    'その他':         'Other',
+    'English / 英語': '日本語 / Japanese'
+  };
+
+  var JA_TO_EN_HREF = {
+    'ホーム':         'index.html',
+    'プロフィール':   'profile.html',
+    '研究':           'research.html',
+    '開発':           'develop.html',
+    'その他':         'other.html'
+  };
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var path = window.location.pathname;
+    var parts = path.split('/');
+    var filename = parts[parts.length - 1];
+    if (!filename || !filename.endsWith('.html')) filename = 'index.html';
+
+    var isEn = path.includes('/en/');
+
+    document.querySelectorAll('.sidebar-item a').forEach(function (a) {
+      var txt = (a.textContent || '').trim();
+
+      if (isEn) {
+        if (JA_TO_EN_HREF.hasOwnProperty(txt)) {
+          a.href = JA_TO_EN_HREF[txt];
+          a.textContent = JA_TO_EN_LABEL[txt];
+          // 現在ページに対応するタブに active を付与
+          a.classList.remove('active');
+          if (JA_TO_EN_HREF[txt] === filename) {
+            a.classList.add('active');
+          }
+        } else if (txt === 'English / 英語') {
+          a.href = '../' + filename;
+          a.textContent = '日本語 / Japanese';
+          a.classList.remove('active');
+          a.closest('.sidebar-item').classList.add('lang-toggle-item');
+        }
+      } else {
+        if (txt === 'English / 英語') {
+          a.href = 'en/' + filename;
+          a.closest('.sidebar-item').classList.add('lang-toggle-item');
+        }
+      }
+    });
+  });
+})();
+</script>

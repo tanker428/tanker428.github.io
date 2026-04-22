@@ -1,0 +1,56 @@
+---
+title: "Profile"
+lang: en
+---
+
+## Biography
+
+[Write a 2–4 line self-introduction. Example: After graduating from ○○ University, I entered △△ Graduate School. I am currently active as a researcher specializing in ○○.]
+
+---
+
+## Education
+
+| Period | Degree | Institution |
+|--------|--------|-------------|
+| [Start] -- [End] | [e.g., Ph.D. in Engineering] | [University / Institution] |
+| [Start] -- [End] | [e.g., M.S. in Engineering] | [University / Institution] |
+| [Start] -- [End] | [e.g., B.S. in Engineering] | [University / Institution] |
+
+---
+
+## Work Experience
+
+| Period | Position | Organization |
+|--------|----------|--------------|
+| [Start] -- Present | [Position title] | [Institution] |
+| [Start] -- [End] | [Position title] | [Institution] |
+
+---
+
+## Awards & Grants
+
+- **[Year]** [Award name] ([Awarding organization])
+- **[Year]** [Grant / program name] ([Funding organization])
+- **[Year]** [Award name] ([Awarding organization])
+
+---
+
+## Skills
+
+### Programming Languages
+
+- [Language 1] (e.g., Python)
+- [Language 2] (e.g., C#)
+- [Language 3] (e.g., JavaScript)
+
+### Frameworks & Tools
+
+- [Tool 1] (e.g., Unity)
+- [Tool 2] (e.g., React)
+- [Tool 3] (e.g., PyTorch)
+
+### Languages
+
+- [e.g., Japanese — Native]
+- [e.g., English — Business level]

@@ -1,17 +1,140 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "研究",
     "section": "",
-    "text": "所属・肩書き\n研究テーマの概要を2〜3行で説明します。\n\n\n\n2026年4月 研究サイトを公開"
+    "text": "ヒューマンコンピュータインタラクション（HCI）を専門とし、XR（VR/AR）環境におけるユーザー行動分析やインタラクション設計、およびオンラインコミュニケーションにおける孤立ユーザーの発見と支援に関する研究を行っています。\n\nユーザのインタラクションに基づく動的バーチャル学習空間の構築と学習評価: VRでのユーザの行動を知識グラフ（KG）学習推薦と空間の動的再構成を行うシステムの構築を目的とします。具体的には、時空間データをKG化し、GNTによる3D物体生成やATOM理論を用いた学習提案を行います。これにより、個別に最適化された再帰的学習環境の提供と、行動変容等の定量的な学習評価を目指します。\n\n歩行時の前庭動眼反射がAR環境のテキスト可読性に与える影響: 歩行中の光学透過型HMDにおけるテキスト可読性への前庭動眼反射（VOR）の影響を調査しています。実世界では視界を安定させるVORですが、頭部と連動する画面固定テキストでは逆効果となり、可読性を下げる仮説を検証しました。実験の結果、歩行による頭部の揺れと視線の動きが連動することを確認し、提示深度が遠いほど視線のばらつきが抑制される傾向を明らかにしました。\n\nオプティカルフローの視野サイズおよびベクションが時間知覚に与える影響: VRにおける視野サイズと自己運動感覚（ベクション）時間知覚に与える影響を調査しています。実験では視野角を操作した視覚刺激を提示し、主観的ベクション、重心動揺、時間の経過感（PoTJ）と持続時間（DoTJ）を評価しました。結果、ベクション感受性が高い参加者では、視野拡大により経過感が加速し、姿勢制御の複雑性が増す一方、持続時間の推定には影響しないことが示されました。\n\n組織コミュニケーションにおける孤立ユーザーの発見と可視化: Slackなどの組織内チャットツールにおいて、貢献度や隣接度に基づくソーシャルグラフを用い、孤立ユーザーや非活性グループを早期に発見・支援する分析システムを開発しています。",
+    "crumbs": [
+      "研究"
+    ]
   },
   {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Home",
+    "objectID": "research.html#研究テーマ",
+    "href": "research.html#研究テーマ",
+    "title": "研究",
     "section": "",
-    "text": "2026年4月 研究サイトを公開"
+    "text": "ヒューマンコンピュータインタラクション（HCI）を専門とし、XR（VR/AR）環境におけるユーザー行動分析やインタラクション設計、およびオンラインコミュニケーションにおける孤立ユーザーの発見と支援に関する研究を行っています。\n\nユーザのインタラクションに基づく動的バーチャル学習空間の構築と学習評価: VRでのユーザの行動を知識グラフ（KG）学習推薦と空間の動的再構成を行うシステムの構築を目的とします。具体的には、時空間データをKG化し、GNTによる3D物体生成やATOM理論を用いた学習提案を行います。これにより、個別に最適化された再帰的学習環境の提供と、行動変容等の定量的な学習評価を目指します。\n\n歩行時の前庭動眼反射がAR環境のテキスト可読性に与える影響: 歩行中の光学透過型HMDにおけるテキスト可読性への前庭動眼反射（VOR）の影響を調査しています。実世界では視界を安定させるVORですが、頭部と連動する画面固定テキストでは逆効果となり、可読性を下げる仮説を検証しました。実験の結果、歩行による頭部の揺れと視線の動きが連動することを確認し、提示深度が遠いほど視線のばらつきが抑制される傾向を明らかにしました。\n\nオプティカルフローの視野サイズおよびベクションが時間知覚に与える影響: VRにおける視野サイズと自己運動感覚（ベクション）時間知覚に与える影響を調査しています。実験では視野角を操作した視覚刺激を提示し、主観的ベクション、重心動揺、時間の経過感（PoTJ）と持続時間（DoTJ）を評価しました。結果、ベクション感受性が高い参加者では、視野拡大により経過感が加速し、姿勢制御の複雑性が増す一方、持続時間の推定には影響しないことが示されました。\n\n組織コミュニケーションにおける孤立ユーザーの発見と可視化: Slackなどの組織内チャットツールにおいて、貢献度や隣接度に基づくソーシャルグラフを用い、孤立ユーザーや非活性グループを早期に発見・支援する分析システムを開発しています。",
+    "crumbs": [
+      "研究"
+    ]
+  },
+  {
+    "objectID": "research.html#論文",
+    "href": "research.html#論文",
+    "title": "研究",
+    "section": "論文",
+    "text": "論文\n\n学術論文\n\nRyosuke Takizawa, Isshin Nakao, Kensuke Taninaka, et al., Visualization of Online Communication and Detection of Lonely Users Using Social Graphs Based on Contribution Level and Adjacency Level, Journal of Information Processing, vol. 33, pp. 765-775, 2025.\n\n\n\n会議論文\n\nRyosuke Takizawa, Isshin Nakao, Kensuke Taninaka, et al., Development of a Communication Analysis System for Detecting Isolated Users in Slack, Proceedings of the 16th IIAI International Congress on Advanced Applied Informatics (IIAI AAI SBIT 2024), 2024. ※Honorable mention award受賞 [論文リンク]\nKensuke Taninaka, et al., Analyzing User Behavior in Scenario-Based Virtual Reality Environments Using Knowledge Graphs, Proceedings of the 16th IIAI International Congress on Advanced Applied Informatics (IIAI AAI Interaction Design and Digital Creation / Computing), 2024. [論文リンク]\n瀧澤亮佑, 本松大夢, 中尾一心, 谷中健介, 瀧口諒久, 荒川豊, 組織Slackにおける孤立ユーザと非活性グループの発見を目的としたコミュニケーション分析システムの開発, 第31回マルチメディア通信と分散処理ワークショップ (DPSWS 2023), 2023. ※最優秀論文賞受賞\n谷中健介, 中村優吾, 崔赫秦, 福嶋政期, 歩行時の前庭動眼反射が光学透過型HMD上のテキスト可読性に与える影響, 第29回日本バーチャルリアリティ学会大会, 2024.\n谷中健介, 福嶋政期, AR環境でのテキスト可読性の向上にむけた歩行時の前庭動眼反射の定量化, 情報処理学会 九州支部 若手の会セミナー 2024, 2024.",
+    "crumbs": [
+      "研究"
+    ]
+  },
+  {
+    "objectID": "other.html",
+    "href": "other.html",
+    "title": "その他",
+    "section": "",
+    "text": "外部リンク集です。\n\n\n\n名称\nURL\n\n\n\n\n[リンク名をここに記入]\n[URLをここに記入]\n\n\n[リンク名をここに記入]\n[URLをここに記入]",
+    "crumbs": [
+      "その他"
+    ]
+  },
+  {
+    "objectID": "other.html#リンク",
+    "href": "other.html#リンク",
+    "title": "その他",
+    "section": "",
+    "text": "外部リンク集です。\n\n\n\n名称\nURL\n\n\n\n\n[リンク名をここに記入]\n[URLをここに記入]\n\n\n[リンク名をここに記入]\n[URLをここに記入]",
+    "crumbs": [
+      "その他"
+    ]
+  },
+  {
+    "objectID": "other.html#その他情報",
+    "href": "other.html#その他情報",
+    "title": "その他",
+    "section": "その他情報",
+    "text": "その他情報\n\n[その他の情報1をここに記入]\n[その他の情報2をここに記入]",
+    "crumbs": [
+      "その他"
+    ]
+  },
+  {
+    "objectID": "en/research.html",
+    "href": "en/research.html",
+    "title": "Research",
+    "section": "",
+    "text": "[Write a 2–3 line overview of your research. Example: Our group develops ○○ techniques to address △△ challenges.]\n\n[Topic 1]: [Description of topic 1 (e.g., Visualization and exploration of knowledge graphs in VR space)]\n[Topic 2]: [Description of topic 2 (e.g., Information retrieval interfaces using 3D interaction)]\n[Topic 3]: [Description of topic 3 (e.g., Information recommendation combining AR and machine learning)]"
+  },
+  {
+    "objectID": "en/research.html#research-interests",
+    "href": "en/research.html#research-interests",
+    "title": "Research",
+    "section": "",
+    "text": "[Write a 2–3 line overview of your research. Example: Our group develops ○○ techniques to address △△ challenges.]\n\n[Topic 1]: [Description of topic 1 (e.g., Visualization and exploration of knowledge graphs in VR space)]\n[Topic 2]: [Description of topic 2 (e.g., Information retrieval interfaces using 3D interaction)]\n[Topic 3]: [Description of topic 3 (e.g., Information recommendation combining AR and machine learning)]"
+  },
+  {
+    "objectID": "en/research.html#publications",
+    "href": "en/research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nJournal Articles\n\n[Author 1], [Author 2], [Paper title], [Journal name], vol. [X], pp. [X–X], [Year]. [DOI]\n[Author 1], [Author 2], [Paper title], [Journal name], vol. [X], pp. [X–X], [Year]. [DOI]\n\n\n\nConference Papers\n\n[Author 1], [Author 2], [Paper title], Proceedings of [Conference name], [Year], pp. [X–X].\n[Author 1], [Author 2], [Paper title], Proceedings of [Conference name], [Year], pp. [X–X].\n[Author 1], [Author 2], [Paper title], [Conference name], [Year].\n\n\n\nPreprints\n\n[Author 1], [Author 2], [Paper title], arXiv, [Year]. [arXiv]"
+  },
+  {
+    "objectID": "en/research.html#projects",
+    "href": "en/research.html#projects",
+    "title": "Research",
+    "section": "Projects",
+    "text": "Projects\n\n[Project name 1]\nPeriod: [Start] – [End or “Present”] Funding: [Funding organization / program]\n[Write a 2–3 line project overview.]\n\n\n[Project name 2]\nPeriod: [Start] – [End or “Present”] Funding: [Funding organization / program]\n[Write a 2–3 line project overview.]"
+  },
+  {
+    "objectID": "en/other.html",
+    "href": "en/other.html",
+    "title": "Other",
+    "section": "",
+    "text": "External links.\n\n\n\nName\nURL\n\n\n\n\n[Link name]\n[URL]\n\n\n[Link name]\n[URL]"
+  },
+  {
+    "objectID": "en/other.html#links",
+    "href": "en/other.html#links",
+    "title": "Other",
+    "section": "",
+    "text": "External links.\n\n\n\nName\nURL\n\n\n\n\n[Link name]\n[URL]\n\n\n[Link name]\n[URL]"
+  },
+  {
+    "objectID": "en/other.html#misc",
+    "href": "en/other.html#misc",
+    "title": "Other",
+    "section": "Misc",
+    "text": "Misc\nOther information.\n\n[Other information 1]\n[Other information 2]"
+  },
+  {
+    "objectID": "en/develop.html",
+    "href": "en/develop.html",
+    "title": "Develop",
+    "section": "",
+    "text": "[Write a 2–3 line overview of your development activities. Example: Alongside my research, I develop VR and web applications aimed at practical applications of research outcomes and tools that support learning and experience.]"
+  },
+  {
+    "objectID": "en/develop.html#overview",
+    "href": "en/develop.html#overview",
+    "title": "Develop",
+    "section": "",
+    "text": "[Write a 2–3 line overview of your development activities. Example: Alongside my research, I develop VR and web applications aimed at practical applications of research outcomes and tools that support learning and experience.]"
+  },
+  {
+    "objectID": "en/develop.html#apps",
+    "href": "en/develop.html#apps",
+    "title": "Develop",
+    "section": "Apps",
+    "text": "Apps\n\n[App name 1]\n\nOverview: [Write a 2–3 line description of the app.]\nTech stack:\n\n[Technology 1] (e.g., Unity)\n[Technology 2] (e.g., C#)\n[Technology 3] (e.g., WebGL)\n\nLinks:\n\nGitHub\nDemo / App URL\n\n\n\n\n[App name 2]\n\nOverview: [Write a 2–3 line description of the app.]\nTech stack:\n\n[Technology 1] (e.g., Python)\n[Technology 2] (e.g., React)\n[Technology 3] (e.g., FastAPI)\n\nLinks:\n\nGitHub\nDemo / App URL"
+  },
+  {
+    "objectID": "en/develop.html#achievements",
+    "href": "en/develop.html#achievements",
+    "title": "Develop",
+    "section": "Achievements",
+    "text": "Achievements\n\nGrants & Funding\n\n\n\nYear\nProgram\nOrganization\nAmount\n\n\n\n\n[Year]\n[Grant program name]\n[Funding organization]\n[Amount]\n\n\n[Year]\n[Grant program name]\n[Funding organization]\n[Amount]\n\n\n\n\n\nAwards\n\n[Year] [Award name] ([Organizer])\n[Year] [Award name] ([Organizer])"
   },
   {
     "objectID": "about.html",
@@ -19,5 +142,187 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "develop.html",
+    "href": "develop.html",
+    "title": "開発",
+    "section": "",
+    "text": "研究活動と並行して、生活を楽しくするヘルスケアアプリや、AR/VRを用いた新しいインタラクション体験、日常のコミュニケーションを促進するWebアプリケーションなどの開発を行っています。ハッカソンやコンテストにも積極的に参加し、アイデアを形にする実装力とチーム開発を重視しています。",
+    "crumbs": [
+      "開発"
+    ]
+  },
+  {
+    "objectID": "develop.html#概要",
+    "href": "develop.html#概要",
+    "title": "開発",
+    "section": "",
+    "text": "研究活動と並行して、生活を楽しくするヘルスケアアプリや、AR/VRを用いた新しいインタラクション体験、日常のコミュニケーションを促進するWebアプリケーションなどの開発を行っています。ハッカソンやコンテストにも積極的に参加し、アイデアを形にする実装力とチーム開発を重視しています。",
+    "crumbs": [
+      "開発"
+    ]
+  },
+  {
+    "objectID": "develop.html#アプリ",
+    "href": "develop.html#アプリ",
+    "title": "開発",
+    "section": "アプリ",
+    "text": "アプリ\n\nyour hit point\n\n概要: スマートウォッチ（Fitbit）を用いて睡眠時間や心拍、歩数などの身体情報を取得し、ユーザーの「体力（HP）」を可視化するアプリです。HPはアプリ内のペットの状態と連動しており、ペットを愛でる気持ちが自身の健康維持に繋がります。（現在、改良版「Your Magic Point」を作成中）\n担当役割: バックエンド / アプリデザイン / マネジメント\n使用技術: - Python / Flutter - Firebase - Android Studio / Fitbit API\nリンク: - Protopedia\n\n\n\nAir-Pin\n\n概要: ARグラス上で目的地の場所を3次元的な情報を含めて表示するアプリです。Google Mapsのような既存の2次元ピンとは異なり、高さ情報を含めて目的地の階層に合わせた3次元のピンをAR空間上に投影します。\n担当役割: AR部開発\n使用技術: - Unity / Python - Cloud Run / Geospatial API - XREAL Air / PLATEAU\nリンク: - Protopedia\n\n\n\n完コピアプリ（イマーシブLab）\n\n概要: 自分の動きとお手本の動きのシンクロ具合を3人称視点から確認できるVRアプリです。DeepMotionを利用してお手本の動き（アニメーション）を作成し、それを元にVR空間での訓練環境のプロトタイプを構築しました。\n担当役割: [役割をここに記入]\n使用技術: - Unity / Python - DeepMotion - Meta Quest 3 / フルトラッキングデバイス (Base station 2.0, Vive tracker 3.0)\nリンク: - Protopedia\n\n\n\nShareHobby\n\n概要: YouTubeの視聴履歴から、ユーザーがよく見ているチャンネルや動画データを元に趣味嗜好を反映した自己紹介カードを作成・共有できるWebサービスです。初対面の人との交流時などに、ゲームやアニメ、配信者の話題で盛り上がるきっかけを提供します。\n担当役割: フロントエンド / デザイン\n使用技術: - Next.js / Ruby on Rails - YouTube Data API - ChatGPT API\nリンク: - Protopedia\n\n\n\nyour nick name\n\n概要: Slackに投稿されたメッセージ内容を解析し、メッセージを投稿したユーザーの「ニックネーム」を自動生成して出力するSlackBotです。「ChatGPTを用いて何か楽しいことがしたい」という思いから作成しました。\n担当役割: [役割をここに記入]\n使用技術: - Python / Slack API - ChatGPT API\nリンク: - Protopedia",
+    "crumbs": [
+      "開発"
+    ]
+  },
+  {
+    "objectID": "develop.html#実績",
+    "href": "develop.html#実績",
+    "title": "開発",
+    "section": "実績",
+    "text": "実績\n\n助成金・資金援助\n\n\n\n年\nプログラム\n機関\n\n\n\n\n2025\nQRECアイデアバトル 2025 2nd\n九州大学\n\n\n2025\nQRECアクセラレーションプログラム 2025夏\n九州大学\n\n\n2025\nQRECアイデアバトル 2025 1st\n九州大学\n\n\n2025\nQRECアクセラレーションプログラム 2025春\n九州大学\n\n\n2023\n福岡未踏的人材発掘・育成コンソーシアム 2023 Grow\n福岡未踏的人材発掘・育成コンソーシアム\n\n\n\n\n\n受賞・採択（開発・プロダクト関連）\n\n2025 九州大学 QRECアクセラレーションプログラム 2025春 採択（作品名：完コピアプリ）\n2024 福岡県ITスタートアップビジネス大賞2024 学生部門優秀賞, F Ventures賞（作品名：your hit point）\n2023 エンジニアフレンドリーシティ福岡 Engineer Driven Day 2023 プロダクト開発部門賞（作品名：your hit point）\n2023 九州チャレンジキャラバンコンテスト2023 最優秀賞（作品名：your hit point）\n2023 福岡未踏的人材発掘・育成コンソーシアム2023 Grow 採択（作品名：Air-pin）",
+    "crumbs": [
+      "開発"
+    ]
+  },
+  {
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "Home",
+    "section": "",
+    "text": "[Affiliation Here] [Department / Major Here] [Position / Title Here]\n[Briefly describe your research in 2–3 sentences. Example: My research focuses on ○○, using △△ methods to achieve □□.]\nContact: [Email Address Here] GitHub: [GitHub URL Here] Google Scholar: [Google Scholar URL Here]",
+    "crumbs": [
+      "English / 英語"
+    ]
+  },
+  {
+    "objectID": "en/index.html#research-interests",
+    "href": "en/index.html#research-interests",
+    "title": "Home",
+    "section": "Research Interests",
+    "text": "Research Interests\n\n[Research Topic 1]\n[Research Topic 2]\n[Research Topic 3]",
+    "crumbs": [
+      "English / 英語"
+    ]
+  },
+  {
+    "objectID": "en/index.html#news",
+    "href": "en/index.html#news",
+    "title": "Home",
+    "section": "News",
+    "text": "News\n\n\n\nDate\nContent\n\n\n\n\nApril 2026\nResearch site launched\n\n\n[Year/Month]\n[News content here]",
+    "crumbs": [
+      "English / 英語"
+    ]
+  },
+  {
+    "objectID": "en/profile.html",
+    "href": "en/profile.html",
+    "title": "Profile",
+    "section": "",
+    "text": "[Write a 2–4 line self-introduction. Example: After graduating from ○○ University, I entered △△ Graduate School. I am currently active as a researcher specializing in ○○.]"
+  },
+  {
+    "objectID": "en/profile.html#biography",
+    "href": "en/profile.html#biography",
+    "title": "Profile",
+    "section": "",
+    "text": "[Write a 2–4 line self-introduction. Example: After graduating from ○○ University, I entered △△ Graduate School. I am currently active as a researcher specializing in ○○.]"
+  },
+  {
+    "objectID": "en/profile.html#education",
+    "href": "en/profile.html#education",
+    "title": "Profile",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\n\nPeriod\nDegree\nInstitution\n\n\n\n\n[Start] – [End]\n[e.g., Ph.D. in Engineering]\n[University / Institution]\n\n\n[Start] – [End]\n[e.g., M.S. in Engineering]\n[University / Institution]\n\n\n[Start] – [End]\n[e.g., B.S. in Engineering]\n[University / Institution]"
+  },
+  {
+    "objectID": "en/profile.html#work-experience",
+    "href": "en/profile.html#work-experience",
+    "title": "Profile",
+    "section": "Work Experience",
+    "text": "Work Experience\n\n\n\nPeriod\nPosition\nOrganization\n\n\n\n\n[Start] – Present\n[Position title]\n[Institution]\n\n\n[Start] – [End]\n[Position title]\n[Institution]"
+  },
+  {
+    "objectID": "en/profile.html#awards-grants",
+    "href": "en/profile.html#awards-grants",
+    "title": "Profile",
+    "section": "Awards & Grants",
+    "text": "Awards & Grants\n\n[Year] [Award name] ([Awarding organization])\n[Year] [Grant / program name] ([Funding organization])\n[Year] [Award name] ([Awarding organization])"
+  },
+  {
+    "objectID": "en/profile.html#skills",
+    "href": "en/profile.html#skills",
+    "title": "Profile",
+    "section": "Skills",
+    "text": "Skills\n\nProgramming Languages\n\n[Language 1] (e.g., Python)\n[Language 2] (e.g., C#)\n[Language 3] (e.g., JavaScript)\n\n\n\nFrameworks & Tools\n\n[Tool 1] (e.g., Unity)\n[Tool 2] (e.g., React)\n[Tool 3] (e.g., PyTorch)\n\n\n\nLanguages\n\n[e.g., Japanese — Native]\n[e.g., English — Business level]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ホーム",
+    "section": "",
+    "text": "九州大学大学院 システム情報科学府　情報理工学専攻 博士課程1年　\n人間情報システム研究グループ　HACKING REALITY LABORATORY 所属\n連絡先: [メールアドレスをここに記入] GitHub: [GitHub URLをここに記入]",
+    "crumbs": [
+      "ホーム"
+    ]
+  },
+  {
+    "objectID": "index.html#研究テーマ",
+    "href": "index.html#研究テーマ",
+    "title": "ホーム",
+    "section": "研究テーマ",
+    "text": "研究テーマ\n\nユーザのインタラクションに基づく動的バーチャル学習空間の構築と学習評価\n歩行時の前庭動眼反射がAR環境のテキスト可読性に与える影響\nオプティカルフローの視野サイズおよびベクションが時間知覚に与える影響",
+    "crumbs": [
+      "ホーム"
+    ]
+  },
+  {
+    "objectID": "index.html#ニュース",
+    "href": "index.html#ニュース",
+    "title": "ホーム",
+    "section": "ニュース",
+    "text": "ニュース\n\n\n\n日付\n内容\n\n\n\n\n2026年4月\n研究サイトを公開",
+    "crumbs": [
+      "ホーム"
+    ]
+  },
+  {
+    "objectID": "profile.html",
+    "href": "profile.html",
+    "title": "プロフィール",
+    "section": "",
+    "text": "長崎県出身。九州大学工学部 電気情報工学科を卒業後、同大学院システム情報科学府 情報理工学専攻へ進学し、現在は博士後期課程1年に在籍しています（人間情報システムグループ所属）。ヒューマンコンピュータインタラクション（HCI）やXR環境におけるユーザー行動分析を専門に研究する傍ら、ハッカソンやビジネスコンテストでのアプリケーション開発にも精力的に取り組んでいます。中高生時代に培ったVR酔いへの完全な耐性を活かし、長時間のXR開発や実験を苦としない点も強みです。",
+    "crumbs": [
+      "プロフィール"
+    ]
+  },
+  {
+    "objectID": "profile.html#自己紹介",
+    "href": "profile.html#自己紹介",
+    "title": "プロフィール",
+    "section": "",
+    "text": "長崎県出身。九州大学工学部 電気情報工学科を卒業後、同大学院システム情報科学府 情報理工学専攻へ進学し、現在は博士後期課程1年に在籍しています（人間情報システムグループ所属）。ヒューマンコンピュータインタラクション（HCI）やXR環境におけるユーザー行動分析を専門に研究する傍ら、ハッカソンやビジネスコンテストでのアプリケーション開発にも精力的に取り組んでいます。中高生時代に培ったVR酔いへの完全な耐性を活かし、長時間のXR開発や実験を苦としない点も強みです。",
+    "crumbs": [
+      "プロフィール"
+    ]
+  },
+  {
+    "objectID": "profile.html#学歴",
+    "href": "profile.html#学歴",
+    "title": "プロフィール",
+    "section": "学歴",
+    "text": "学歴\n\n\n\n\n\n\n\n\n期間\n学位・区分\n大学・機関\n\n\n\n\n2026年4月 ～ 現在\n博士後期課程 在学\n九州大学 大学院システム情報科学府 情報理工学専攻\n\n\n2024年4月 ～ 2026年3月\n修士（工学）\n九州大学 大学院システム情報科学府 情報理工学専攻\n\n\n2020年4月 ～ 2024年3月\n学士（工学）\n九州大学 工学部 電気情報工学科",
+    "crumbs": [
+      "プロフィール"
+    ]
+  },
+  {
+    "objectID": "profile.html#その他の業績活動",
+    "href": "profile.html#その他の業績活動",
+    "title": "プロフィール",
+    "section": "その他の業績・活動",
+    "text": "その他の業績・活動\n\n採択・フェローシップ\n\n次世代研究者挑戦的研究プログラム（K²-SPRING）: 令和8年度（博士課程）合格内定（2025年9月）\n[kboost]: 令和8年度（博士課程）合格\n\n\n\n研究・教育補助業務（RA / TA等）\n\n九州大学人間情報システム研究グループ「高校生向け学科診断チャットボットiTOChatの開発業務」補助（2024年6月）\n九州大学人間情報システム研究グループ「ウェアラブルエキスポでの研究室出展」補助（2025年1月）\n\n\n\n特記事項\n\nVR・車酔い耐性: 中高一貫校時代、毎日往復3時間半のバス通学を経験した結果、車酔いおよび「VR酔い」を全くしない体質を獲得。XR分野における長時間の実験や開発において強力なアドバンテージとなっています。",
+    "crumbs": [
+      "プロフィール"
+    ]
   }
 ]

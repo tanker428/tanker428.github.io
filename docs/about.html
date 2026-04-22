@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – 谷中　健介</title>
+<title>About – tanker 428</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -42,13 +42,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-787e033c7b6f65c9dfccb6078e5d2d34.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -75,44 +75,11 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">谷中　健介</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./profile.qmd"> 
-<span class="menu-text">Profile</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./research.qmd"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
@@ -145,6 +112,61 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<script>
+(function () {
+  var JA_TO_EN_LABEL = {
+    'ホーム':         'Home',
+    'プロフィール':   'Profile',
+    '研究':           'Research',
+    '開発':           'Develop',
+    'その他':         'Other',
+    'English / 英語': '日本語 / Japanese'
+  };
+
+  var JA_TO_EN_HREF = {
+    'ホーム':         'index.html',
+    'プロフィール':   'profile.html',
+    '研究':           'research.html',
+    '開発':           'develop.html',
+    'その他':         'other.html'
+  };
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var path = window.location.pathname;
+    var parts = path.split('/');
+    var filename = parts[parts.length - 1];
+    if (!filename || !filename.endsWith('.html')) filename = 'index.html';
+
+    var isEn = path.includes('/en/');
+
+    document.querySelectorAll('.sidebar-item a').forEach(function (a) {
+      var txt = (a.textContent || '').trim();
+
+      if (isEn) {
+        if (JA_TO_EN_HREF.hasOwnProperty(txt)) {
+          a.href = JA_TO_EN_HREF[txt];
+          a.textContent = JA_TO_EN_LABEL[txt];
+          // 現在ページに対応するタブに active を付与
+          a.classList.remove('active');
+          if (JA_TO_EN_HREF[txt] === filename) {
+            a.classList.add('active');
+          }
+        } else if (txt === 'English / 英語') {
+          a.href = '../' + filename;
+          a.textContent = '日本語 / Japanese';
+          a.classList.remove('active');
+          a.closest('.sidebar-item').classList.add('lang-toggle-item');
+        }
+      } else {
+        if (txt === 'English / 英語') {
+          a.href = 'en/' + filename;
+          a.closest('.sidebar-item').classList.add('lang-toggle-item');
+        }
+      }
+    });
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

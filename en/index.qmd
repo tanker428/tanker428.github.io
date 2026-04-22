@@ -1,0 +1,43 @@
+---
+title: "Home"
+lang: en
+---
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![](../assets/profile.jpg)
+:::
+
+::: {.column width="70%"}
+# [Your Name Here]
+
+**[Affiliation Here]**
+[Department / Major Here]
+[Position / Title Here]
+
+[Briefly describe your research in 2–3 sentences. Example: My research focuses on ○○, using △△ methods to achieve □□.]
+
+**Contact:** [Email Address Here]
+**GitHub:** [GitHub URL Here]
+**Google Scholar:** [Google Scholar URL Here]
+:::
+
+::::
+
+---
+
+## Research Interests
+
+- [Research Topic 1]
+- [Research Topic 2]
+- [Research Topic 3]
+
+---
+
+## News
+
+| Date | Content |
+|------|---------|
+| April 2026 | Research site launched |
+| [Year/Month] | [News content here] |

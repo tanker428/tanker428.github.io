@@ -1,0 +1,64 @@
+---
+title: "Develop"
+lang: en
+---
+
+## Overview
+
+[Write a 2–3 line overview of your development activities. Example: Alongside my research, I develop VR and web applications aimed at practical applications of research outcomes and tools that support learning and experience.]
+
+---
+
+## Apps
+
+### [App name 1]
+
+![](../assets/app1_screenshot.jpg)
+
+**Overview:** [Write a 2–3 line description of the app.]
+
+**Tech stack:**
+
+- [Technology 1] (e.g., Unity)
+- [Technology 2] (e.g., C#)
+- [Technology 3] (e.g., WebGL)
+
+**Links:**
+
+- [GitHub](https://github.com/[repository])
+- [Demo / App URL](https://[url])
+
+---
+
+### [App name 2]
+
+![](../assets/app2_screenshot.jpg)
+
+**Overview:** [Write a 2–3 line description of the app.]
+
+**Tech stack:**
+
+- [Technology 1] (e.g., Python)
+- [Technology 2] (e.g., React)
+- [Technology 3] (e.g., FastAPI)
+
+**Links:**
+
+- [GitHub](https://github.com/[repository])
+- [Demo / App URL](https://[url])
+
+---
+
+## Achievements
+
+### Grants & Funding
+
+| Year | Program | Organization | Amount |
+|------|---------|--------------|--------|
+| [Year] | [Grant program name] | [Funding organization] | [Amount] |
+| [Year] | [Grant program name] | [Funding organization] | [Amount] |
+
+### Awards
+
+- **[Year]** [Award name] ([Organizer])
+- **[Year]** [Award name] ([Organizer])

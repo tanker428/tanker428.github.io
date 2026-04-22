@@ -1,0 +1,14 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var path = window.location.pathname;
+  var filename = path.split('/').pop() || 'index.html';
+  if (!filename.endsWith('.html')) filename = 'index.html';
+
+  document.querySelectorAll('.sidebar-item a').forEach(function (a) {
+    var txt = (a.textContent || '').trim();
+    if (txt === '日本語 / Japanese') {
+      a.href = '../' + filename;
+    }
+  });
+});
+</script>

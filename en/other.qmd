@@ -1,0 +1,22 @@
+---
+title: "Other"
+lang: en
+---
+
+## Links
+
+External links.
+
+| Name | URL |
+|------|-----|
+| [Link name] | [URL] |
+| [Link name] | [URL] |
+
+---
+
+## Misc
+
+Other information.
+
+- [Other information 1]
+- [Other information 2]

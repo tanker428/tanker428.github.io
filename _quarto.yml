@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "tanker 428"
+  sidebar:
+    style: "docked"
+    search: false
+    logo: assets/icon2.jpg
+    title: "tanker428"
+    contents:
+      - href: index.qmd
+        text: ホーム
+      - href: profile.qmd
+        text: プロフィール
+      - href: research.qmd
+        text: 研究
+      - href: develop.qmd
+        text: 開発
+      - href: other.qmd
+        text: その他
+      - text: "---"
+      - href: en/index.html
+        text: "English / 英語"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    include-after-body: lang-switch.html
