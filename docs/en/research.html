@@ -75,12 +75,77 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="quarto-light">
+<body class="nav-sidebar docked quarto-light">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../en/index.html">English / 英語</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        </a>
+    </div>
+  </nav>
+</header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../assets/icon2.jpg" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../assets/icon2.jpg" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">tanker428</a>
+    </div>
+      </div>
+    <div class="sidebar-menu-container">
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ホーム</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="../profile.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">プロフィール</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="../research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">研究</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="../develop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">開発</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="../other.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">その他</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="../en/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">English / 英語</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -92,12 +157,6 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link" data-scroll-target="#journal-articles">Journal Articles</a></li>
   <li><a href="#conference-papers" id="toc-conference-papers" class="nav-link" data-scroll-target="#conference-papers">Conference Papers</a></li>
-  <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
-  </ul></li>
-  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a>
-  <ul class="collapse">
-  <li><a href="#project-name-1" id="toc-project-name-1" class="nav-link" data-scroll-target="#project-name-1">[Project name 1]</a></li>
-  <li><a href="#project-name-2" id="toc-project-name-2" class="nav-link" data-scroll-target="#project-name-2">[Project name 2]</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -126,11 +185,15 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="research-interests" class="level2">
 <h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
-<p>[Write a 2–3 line overview of your research. Example: Our group develops ○○ techniques to address △△ challenges.]</p>
+<p>My research specializes in Human-Computer Interaction (HCI), focusing on user behavior analysis and interaction design in XR (VR/AR) environments, as well as the detection and support of isolated users in online communication.</p>
 <ul>
-<li><strong>[Topic 1]</strong>: [Description of topic 1 (e.g., Visualization and exploration of knowledge graphs in VR space)]</li>
-<li><strong>[Topic 2]</strong>: [Description of topic 2 (e.g., Information retrieval interfaces using 3D interaction)]</li>
-<li><strong>[Topic 3]</strong>: [Description of topic 3 (e.g., Information recommendation combining AR and machine learning)]</li>
+<li><p><strong>Construction of Dynamic Virtual Learning Spaces Based on User Interactions and Learning Assessment</strong>: This project aims to build a system that models user behavior in VR as a knowledge graph (KG) and performs learning recommendations alongside dynamic spatial reconstruction. Specifically, spatiotemporal data is converted into a KG, and 3D object generation via GNT and learning suggestions using ATOM theory are applied. The goal is to provide individually optimized recursive learning environments and enable quantitative learning evaluation including behavioral change assessment.</p>
+<p><img src="../assets/vr_learning_space.png" class="img-fluid"></p></li>
+<li><p><strong>Effects of Vestibulo-Ocular Reflex During Walking on Text Readability in AR Environments</strong>: This study investigates the effects of the vestibulo-ocular reflex (VOR) on text readability in optical see-through HMDs during walking. While the VOR stabilizes vision in the real world, it may have the opposite effect on head-fixed screen text, reducing readability. Experimental results confirmed that head movement and gaze movement during walking are correlated, and that a greater display depth tends to suppress gaze dispersion.</p>
+<p><img src="../assets/vor_ar_text.png" class="img-fluid"></p></li>
+<li><p><strong>Effects of Optical Flow Field of View and Vection on Time Perception</strong>: This study investigates the effects of visual field size and vection (self-motion perception) on time perception in VR. Participants were presented with visual stimuli with varying field-of-view angles, and subjective vection, postural sway, passage of time judgment (PoTJ), and duration judgment (DoTJ) were assessed. Results showed that in participants with high vection sensitivity, expanded field of view accelerated perceived time passage and increased postural control complexity, while duration estimation was unaffected.</p>
+<p><img src="../assets/optical_flow_time.png" class="img-fluid"></p></li>
+<li><p><strong>Detection and Visualization of Isolated Users in Organizational Communication</strong>: This project develops an analysis system for early detection and support of isolated users and inactive groups in organizational chat tools such as Slack, using social graphs based on contribution level and adjacency level.</p></li>
 </ul>
 <hr>
 </section>
@@ -139,37 +202,18 @@ ul.task-list li input[type="checkbox"] {
 <section id="journal-articles" class="level3">
 <h3 class="anchored" data-anchor-id="journal-articles">Journal Articles</h3>
 <ol type="1">
-<li><p>[Author 1], [Author 2], <strong>[Paper title]</strong>, <em>[Journal name]</em>, vol.&nbsp;[X], pp.&nbsp;[X–X], [Year]. [<a href="https://doi.org/%5BDOI%5D">DOI</a>]</p></li>
-<li><p>[Author 1], [Author 2], <strong>[Paper title]</strong>, <em>[Journal name]</em>, vol.&nbsp;[X], pp.&nbsp;[X–X], [Year]. [<a href="https://doi.org/%5BDOI%5D">DOI</a>]</p></li>
+<li>Ryosuke Takizawa, Isshin Nakao, Kensuke Taninaka, et al., <strong>Visualization of Online Communication and Detection of Lonely Users Using Social Graphs Based on Contribution Level and Adjacency Level</strong>, <em>Journal of Information Processing</em>, vol.&nbsp;33, pp.&nbsp;765-775, 2025.</li>
 </ol>
 </section>
 <section id="conference-papers" class="level3">
 <h3 class="anchored" data-anchor-id="conference-papers">Conference Papers</h3>
 <ol type="1">
-<li><p>[Author 1], [Author 2], <strong>[Paper title]</strong>, <em>Proceedings of [Conference name]</em>, [Year], pp.&nbsp;[X–X].</p></li>
-<li><p>[Author 1], [Author 2], <strong>[Paper title]</strong>, <em>Proceedings of [Conference name]</em>, [Year], pp.&nbsp;[X–X].</p></li>
-<li><p>[Author 1], [Author 2], <strong>[Paper title]</strong>, <em>[Conference name]</em>, [Year].</p></li>
+<li><p>Ryosuke Takizawa, Isshin Nakao, Kensuke Taninaka, et al., <strong>Development of a Communication Analysis System for Detecting Isolated Users in Slack</strong>, <em>Proceedings of the 16th IIAI International Congress on Advanced Applied Informatics (IIAI AAI SBIT 2024)</em>, 2024. Honorable mention award [<a href="https://iaiai.org/letters/index.php/liir/article/view/312">Paper link</a>]</p></li>
+<li><p>Kensuke Taninaka, et al., <strong>Analyzing User Behavior in Scenario-Based Virtual Reality Environments Using Knowledge Graphs</strong>, <em>Proceedings of the 16th IIAI International Congress on Advanced Applied Informatics (IIAI AAI Interaction Design and Digital Creation / Computing)</em>, 2024. [<a href="https://www.semanticscholar.org/paper/Analyzing-User-Behavior-in-Scenario-Based-Virtual-Taninaka-Furuya/818a20bc9e0a39c7a33eb3cc4a9ad7ee6358644c">Paper link</a>]</p></li>
+<li><p>Ryosuke Takizawa, Himu Honmatsu, Isshin Nakao, Kensuke Taninaka, Ryohisa Takiguchi, Yutaka Arakawa, <strong>Development of a Communication Analysis System for Detecting Isolated Users and Inactive Groups in Organizational Slack</strong> (組織Slackにおける孤立ユーザと非活性グループの発見を目的としたコミュニケーション分析システムの開発), <em>31st Workshop on Multimedia Communication and Distributed Processing (DPSWS 2023)</em>, 2023. <a href="https://www.dpsws.org/2023/?Award">Best Paper Award</a></p></li>
+<li><p>Kensuke Taninaka, Yugo Nakamura, Hyeokjin Choi, Masaki Fukushima, <strong>Effects of Vestibulo-Ocular Reflex During Walking on Text Readability in Optical See-Through HMDs</strong> (歩行時の前庭動眼反射が光学透過型HMD上のテキスト可読性に与える影響), <em><a href="https://conference.vrsj.org/ac2024/program/2E1.html">29th Annual Conference of the Virtual Reality Society of Japan</a></em>, 2024.</p></li>
+<li><p>Kensuke Taninaka, Masaki Fukushima, <strong>Quantification of Vestibulo-Ocular Reflex During Walking Toward Improving Text Readability in AR Environments</strong> (AR環境でのテキスト可読性の向上にむけた歩行時の前庭動眼反射の定量化), <em>IPSJ Kyushu Branch Young Researchers Seminar 2024</em>, 2024.</p></li>
 </ol>
-</section>
-<section id="preprints" class="level3">
-<h3 class="anchored" data-anchor-id="preprints">Preprints</h3>
-<ol type="1">
-<li>[Author 1], [Author 2], <strong>[Paper title]</strong>, <em>arXiv</em>, [Year]. [<a href="https://arxiv.org/abs/%5BID%5D">arXiv</a>]</li>
-</ol>
-<hr>
-</section>
-</section>
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<section id="project-name-1" class="level3">
-<h3 class="anchored" data-anchor-id="project-name-1">[Project name 1]</h3>
-<p><strong>Period:</strong> [Start] – [End or “Present”] <strong>Funding:</strong> [Funding organization / program]</p>
-<p>[Write a 2–3 line project overview.]</p>
-</section>
-<section id="project-name-2" class="level3">
-<h3 class="anchored" data-anchor-id="project-name-2">[Project name 2]</h3>
-<p><strong>Period:</strong> [Start] – [End or “Present”] <strong>Funding:</strong> [Funding organization / program]</p>
-<p>[Write a 2–3 line project overview.]</p>
 
 
 </section>

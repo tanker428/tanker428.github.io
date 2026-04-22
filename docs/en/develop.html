@@ -75,12 +75,77 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="quarto-light">
+<body class="nav-sidebar docked quarto-light">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../en/index.html">English / 英語</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        </a>
+    </div>
+  </nav>
+</header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../assets/icon2.jpg" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../assets/icon2.jpg" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">tanker428</a>
+    </div>
+      </div>
+    <div class="sidebar-menu-container">
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ホーム</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="../profile.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">プロフィール</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="../research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">研究</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="../develop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">開発</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="../other.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">その他</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container">
+  <a href="../en/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">English / 英語</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -90,13 +155,16 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#apps" id="toc-apps" class="nav-link" data-scroll-target="#apps">Apps</a>
   <ul class="collapse">
-  <li><a href="#app-name-1" id="toc-app-name-1" class="nav-link" data-scroll-target="#app-name-1">[App name 1]</a></li>
-  <li><a href="#app-name-2" id="toc-app-name-2" class="nav-link" data-scroll-target="#app-name-2">[App name 2]</a></li>
+  <li><a href="#your-hit-point" id="toc-your-hit-point" class="nav-link" data-scroll-target="#your-hit-point">your hit point</a></li>
+  <li><a href="#air-pin" id="toc-air-pin" class="nav-link" data-scroll-target="#air-pin">Air-Pin</a></li>
+  <li><a href="#perfect-copy-app-immersive-lab" id="toc-perfect-copy-app-immersive-lab" class="nav-link" data-scroll-target="#perfect-copy-app-immersive-lab">Perfect Copy App (Immersive Lab)</a></li>
+  <li><a href="#sharehobby" id="toc-sharehobby" class="nav-link" data-scroll-target="#sharehobby">ShareHobby</a></li>
+  <li><a href="#your-nick-name" id="toc-your-nick-name" class="nav-link" data-scroll-target="#your-nick-name">your nick name</a></li>
   </ul></li>
   <li><a href="#achievements" id="toc-achievements" class="nav-link" data-scroll-target="#achievements">Achievements</a>
   <ul class="collapse">
   <li><a href="#grants-funding" id="toc-grants-funding" class="nav-link" data-scroll-target="#grants-funding">Grants &amp; Funding</a></li>
-  <li><a href="#awards" id="toc-awards" class="nav-link" data-scroll-target="#awards">Awards</a></li>
+  <li><a href="#awards-development-product" id="toc-awards-development-product" class="nav-link" data-scroll-target="#awards-development-product">Awards (Development / Product)</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -125,43 +193,54 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>[Write a 2–3 line overview of your development activities. Example: Alongside my research, I develop VR and web applications aimed at practical applications of research outcomes and tools that support learning and experience.]</p>
+<p>Alongside my research activities, I develop healthcare apps that make daily life more enjoyable, novel interaction experiences using AR/VR, and web applications that facilitate everyday communication. I actively participate in hackathons and contests, emphasizing the ability to turn ideas into reality through implementation and team development.</p>
 <hr>
 </section>
 <section id="apps" class="level2">
 <h2 class="anchored" data-anchor-id="apps">Apps</h2>
-<section id="app-name-1" class="level3">
-<h3 class="anchored" data-anchor-id="app-name-1">[App name 1]</h3>
-<p><img src="../assets/app1_screenshot.jpg" class="img-fluid"></p>
-<p><strong>Overview:</strong> [Write a 2–3 line description of the app.]</p>
-<p><strong>Tech stack:</strong></p>
-<ul>
-<li>[Technology 1] (e.g., Unity)</li>
-<li>[Technology 2] (e.g., C#)</li>
-<li>[Technology 3] (e.g., WebGL)</li>
-</ul>
-<p><strong>Links:</strong></p>
-<ul>
-<li><a href="https://github.com/%5Brepository%5D">GitHub</a></li>
-<li><a href="https://%5Burl%5D">Demo / App URL</a></li>
-</ul>
+<section id="your-hit-point" class="level3">
+<h3 class="anchored" data-anchor-id="your-hit-point">your hit point</h3>
+<p><img src="../assets/your_hit_point_screenshot.png" class="img-fluid"></p>
+<p><strong>Overview:</strong> An app that retrieves physical information such as sleep duration, heart rate, and step count from a smartwatch (Fitbit) and visualizes the user’s “HP (Hit Points).” The HP is linked to the state of an in-app pet, so the desire to care for the pet naturally motivates the user to maintain their own health. (An improved version, “Your Magic Point,” is currently in development.)</p>
+<p><strong>Role:</strong> Backend / App Design / Management</p>
+<p><strong>Tech stack:</strong> - Python / Flutter - Firebase - Android Studio / Fitbit API</p>
+<p><strong>Links:</strong> - <a href="https://protopedia.net/prototype/4604">Protopedia</a></p>
 <hr>
 </section>
-<section id="app-name-2" class="level3">
-<h3 class="anchored" data-anchor-id="app-name-2">[App name 2]</h3>
-<p><img src="../assets/app2_screenshot.jpg" class="img-fluid"></p>
-<p><strong>Overview:</strong> [Write a 2–3 line description of the app.]</p>
-<p><strong>Tech stack:</strong></p>
-<ul>
-<li>[Technology 1] (e.g., Python)</li>
-<li>[Technology 2] (e.g., React)</li>
-<li>[Technology 3] (e.g., FastAPI)</li>
-</ul>
-<p><strong>Links:</strong></p>
-<ul>
-<li><a href="https://github.com/%5Brepository%5D">GitHub</a></li>
-<li><a href="https://%5Burl%5D">Demo / App URL</a></li>
-</ul>
+<section id="air-pin" class="level3">
+<h3 class="anchored" data-anchor-id="air-pin">Air-Pin</h3>
+<p><img src="../assets/air_pin_screenshot.png" class="img-fluid"></p>
+<p><strong>Overview:</strong> An app that displays destination locations with three-dimensional information on AR glasses. Unlike conventional 2D pins used in Google Maps, it projects a 3D pin adjusted to the floor level of the destination into AR space, incorporating height information.</p>
+<p><strong>Role:</strong> AR Development</p>
+<p><strong>Tech stack:</strong> - Unity / Python - Cloud Run / Geospatial API - XREAL Air / PLATEAU</p>
+<p><strong>Links:</strong> - <a href="https://protopedia.net/prototype/5094">Protopedia</a></p>
+<hr>
+</section>
+<section id="perfect-copy-app-immersive-lab" class="level3">
+<h3 class="anchored" data-anchor-id="perfect-copy-app-immersive-lab">Perfect Copy App (Immersive Lab)</h3>
+<p><img src="../assets/kankopi_screenshot.png" class="img-fluid"></p>
+<p><strong>Overview:</strong> A VR app that allows users to observe the degree of synchronization between their own movements and a reference motion from a third-person perspective. DeepMotion was used to create the reference motion (animation), which served as the basis for building a training environment prototype in VR space.</p>
+<p><strong>Role:</strong> —</p>
+<p><strong>Tech stack:</strong> - Unity / Python - DeepMotion - Meta Quest 3 / Full-body tracking devices (Base station 2.0, Vive tracker 3.0)</p>
+<p><strong>Links:</strong> - <a href="https://protopedia.net/prototype/6715">Protopedia</a></p>
+<hr>
+</section>
+<section id="sharehobby" class="level3">
+<h3 class="anchored" data-anchor-id="sharehobby">ShareHobby</h3>
+<p><img src="../assets/share_hobby_screenshot.png" class="img-fluid"></p>
+<p><strong>Overview:</strong> A web service that creates and shares self-introduction cards reflecting the user’s interests and preferences, based on frequently viewed channels and video data from their YouTube watch history. It provides conversation starters about games, anime, and content creators when meeting new people.</p>
+<p><strong>Role:</strong> Frontend / Design</p>
+<p><strong>Tech stack:</strong> - Next.js / Ruby on Rails - YouTube Data API - ChatGPT API</p>
+<p><strong>Links:</strong> - <a href="https://protopedia.net/prototype/5193">Protopedia</a></p>
+<hr>
+</section>
+<section id="your-nick-name" class="level3">
+<h3 class="anchored" data-anchor-id="your-nick-name">your nick name</h3>
+<p><img src="../assets/your_nick_name_screenshot.png" class="img-fluid"></p>
+<p><strong>Overview:</strong> A Slack bot that analyzes the content of messages posted on Slack and automatically generates and outputs a “nickname” for the message author. Created out of a desire to do something fun with ChatGPT.</p>
+<p><strong>Role:</strong> —</p>
+<p><strong>Tech stack:</strong> - Python / Slack API - ChatGPT API</p>
+<p><strong>Links:</strong> - <a href="https://protopedia.net/prototype/5104">Protopedia</a></p>
 <hr>
 </section>
 </section>
@@ -175,30 +254,45 @@ ul.task-list li input[type="checkbox"] {
 <th>Year</th>
 <th>Program</th>
 <th>Organization</th>
-<th>Amount</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>[Year]</td>
-<td>[Grant program name]</td>
-<td>[Funding organization]</td>
-<td>[Amount]</td>
+<td>2025</td>
+<td><a href="https://qrec.kyushu-u.ac.jp/news/idea-battle_20251109/">QREC Idea Battle 2025 2nd</a></td>
+<td>Kyushu University</td>
 </tr>
 <tr class="even">
-<td>[Year]</td>
-<td>[Grant program name]</td>
-<td>[Funding organization]</td>
-<td>[Amount]</td>
+<td>2025</td>
+<td><a href="https://qrec.kyushu-u.ac.jp/news/acceleration-program_qsap03_adopters/">QREC Acceleration Program 2025 Summer</a></td>
+<td>Kyushu University</td>
+</tr>
+<tr class="odd">
+<td>2025</td>
+<td><a href="https://qrec.kyushu-u.ac.jp/news/20250525_ib1st/">QREC Idea Battle 2025 1st</a></td>
+<td>Kyushu University</td>
+</tr>
+<tr class="even">
+<td>2025</td>
+<td><a href="https://qrec.kyushu-u.ac.jp/news/20251212_01/">QREC Acceleration Program 2025 Spring</a></td>
+<td>Kyushu University</td>
+</tr>
+<tr class="odd">
+<td>2023</td>
+<td><a href="https://mitou-fukuoka.org/works/air-pin/">Fukuoka Mitoujin 2023 Grow</a></td>
+<td>Fukuoka Mitoujin Consortium</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="awards" class="level3">
-<h3 class="anchored" data-anchor-id="awards">Awards</h3>
+<section id="awards-development-product" class="level3">
+<h3 class="anchored" data-anchor-id="awards-development-product">Awards (Development / Product)</h3>
 <ul>
-<li><strong>[Year]</strong> [Award name] ([Organizer])</li>
-<li><strong>[Year]</strong> [Award name] ([Organizer])</li>
+<li><strong>2025</strong> <a href="https://qrec.kyushu-u.ac.jp/news/20251212_01/">Kyushu University QREC Acceleration Program 2025 Spring</a> — Selected (work: Perfect Copy App)</li>
+<li><strong>2024</strong> <a href="https://www.youtube.com/watch?v=cDuHPSLw_d8">Fukuoka Prefecture IT Startup Business Award 2024</a> — Student Division Excellence Award, F Ventures Award (work: your hit point)</li>
+<li><strong>2023</strong> <a href="https://protopedia.net/event/engineerdrivenday2023">Engineer Friendly City Fukuoka Engineer Driven Day 2023</a> — Product Development Division Award (work: your hit point)</li>
+<li><strong>2023</strong> <a href="https://challecara.org/?page_id=3082">Kyushu Challenge Caravan Contest 2023</a> — Grand Prize (work: your hit point)</li>
+<li><strong>2023</strong> <a href="https://mitou-fukuoka.org/works/air-pin/">Fukuoka Mitoujin 2023 Grow</a> — Selected (work: Air-Pin)</li>
 </ul>
 
 
